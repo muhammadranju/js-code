@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Home page</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="/"><img src="./img/logo.png" width="130" height="40" class="d-inline-block align-top" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/js-code-optimization.html">JS Optimization</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Code </a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>JavaScript Code Optimization</h2>
+          <strong>
+            <div class=" mt-3 col-md-12 alert" id="alertShow" role="alert"> </div>
+          </strong>
+          <div class="mb-3">
+            <label for="codeEnter" class="form-label">Enter your code hear</label>
+            <textarea class="form-control " id="codeEnter" aria-describedby="validationServer" rows="10"></textarea>
+            <strong id="validationServer" class="text-danger"></strong><br>
+            <span>Total Words: <span id="wordsIs"></span></span><br>
+            <span>Total Lattes: <span id="lattesIs"></span></span>
+          </div>
+          <button class="btn btn-primary mb-5" id="submitBtn">Convert Text</button>
+
+          <div class="mb-3" id="showDiv">
+            <label for="exampleFormControlTextarea1" class="form-label">Here your final code</label>
+            <textarea disabled class="form-control " id="codeShow" rows="10"></textarea>
+            <button class="btn btn-success mt-3" id="copyBtn">Copy Text</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <footer>
+    <!-- place footer here -->
+
+    <div class="container-fluid">
+      <!-- Footer -->
+      <footer class="text-center text-lg-start bg-light text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+
+          <!-- Right -->
+          <div>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>Company name
+                </h6>
+                <p>
+                  Here you can use rows and columns to organize your footer content. Lorem ipsum
+                  dolor sit amet, consectetur adipisicing elit.
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Products
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Angular</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">React</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Vue</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Laravel</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Useful links
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Pricing</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Settings</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Orders</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Help</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p><i class="fas fa-home me-3"></i> ShreeRampur, Rajshahi, Bangladesh</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  muhamadranju@gmail.com
+                </p>
+                <!-- <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p> -->
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2023 Copyright:
+          <a class="text-reset fw-bold" href="https://github.com/muhammadranju">muhammadranju</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    </div>
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+  <script src="./index.js"></script>
+</body>
+
+</html>
